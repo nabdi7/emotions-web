@@ -1,4 +1,5 @@
 import React from "react";
+import Image from "next/image";
 
 const Landing = () => {
   return (
@@ -46,7 +47,7 @@ const Landing = () => {
           </a>
         </div>
         <div className="lg:mt-0 lg:col-span-5 lg:flex mt-5">
-          <img src="/emotions.png" alt="mockup" />
+          <Image src="/hero.png" alt="mockup" width="500" height="500"/>
         </div>
       </div>
     </section>

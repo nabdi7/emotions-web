@@ -18,7 +18,7 @@ const Stats = () => {
                 alt=""
               /> */}
               <img
-                src="https://flowbite.s3.amazonaws.com/blocks/marketing-ui/hero/mockup-1-dark.png"
+                src="/stats.png"
                 className="hidden dark:block w-[272px] h-[572px]"
                 alt=""
               />
