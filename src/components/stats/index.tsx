@@ -1,19 +1,18 @@
 export const stats = [
-    {
-      data: "35K",
-      title: "Customers",
-    },
-    {
-      data: "10K+",
-      title: "Downloads",
-    },
-    {
-      data: "40+",
-      title: "Countries",
-    },
-    {
-      data: "30M+",
-      title: "Total revenue",
-    },
-  ];
-
+  {
+    data: "20K+",
+    title: "Feelings Addressed",
+  },
+  {
+    data: "15K+",
+    title: "Active Users",
+  },
+  {
+    data: "50+",
+    title: "Countries Reached",
+  },
+  {
+    data: "100K+",
+    title: "App Downloads",
+  },
+];

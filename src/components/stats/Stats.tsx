@@ -12,11 +12,11 @@ const Stats = () => {
             <div className="h-[46px] w-[3px] bg-gray-800 dark:bg-gray-800 absolute -start-[17px] top-[178px] rounded-s-lg"></div>
             <div className="h-[64px] w-[3px] bg-gray-800 dark:bg-gray-800 absolute -end-[17px] top-[142px] rounded-e-lg"></div>
             <div className="rounded-[2rem] overflow-hidden w-[272px] h-[572px] bg-white dark:bg-gray-800">
-              <img
+              {/* <img
                 src="https://flowbite.s3.amazonaws.com/blocks/marketing-ui/hero/mockup-1-light.png"
                 className="dark:hidden w-[272px] h-[572px]"
                 alt=""
-              />
+              /> */}
               <img
                 src="https://flowbite.s3.amazonaws.com/blocks/marketing-ui/hero/mockup-1-dark.png"
                 className="hidden dark:block w-[272px] h-[572px]"
@@ -27,11 +27,11 @@ const Stats = () => {
           <div className="mt-6 gap-12 sm:mt-0 md:flex lg:block">
             <div className="max-w-2xl">
               <h3 className="text-gray-800 text-3xl font-semibold sm:text-4xl">
-                We do our best to make customers always happy
+                Transforming lives through Quran and Hadith
               </h3>
               <p className="mt-3 max-w-xl">
-                Lorem ipsum dolor sit amet, consectetur adipiscing elit. Morbi
-                venenatis sollicitudin quam ut tincidunt.
+                Our platform connects users with valuable insights and guidance,
+                making a meaningful impact globally.
               </p>
             </div>
             <div className="flex-none mt-6 md:mt-0 lg:mt-6">

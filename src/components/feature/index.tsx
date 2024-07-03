@@ -2,7 +2,7 @@ export const tabsData = [
   {
     id: "tabs-with-card-1",
     title: "Qura'n",
-    description: "Create a business, whether you’ve got a fresh idea.",
+    description: "Discover the divine guidance and wisdom of the Quran, offering comfort and insight for every emotion and situation.",
     icon: (
       <svg
         xmlns="http://www.w3.org/2000/svg"
@@ -28,7 +28,7 @@ export const tabsData = [
   {
     id: "tabs-with-card-2",
     title: "Hadith",
-    description: "Use automation to scale campaigns profitably and save time doing it.",
+    description: "Explore the timeless wisdom and actionable insights from the Hadith for guidance through every emotion.",
     icon: (
       <svg
         xmlns="http://www.w3.org/2000/svg"
@@ -46,12 +46,12 @@ export const tabsData = [
         <path d="M3.34 19a10 10 0 1 1 17.32 0" />
       </svg>
     ),
-    image: "../assets/img/mockups/img9.jpg",
+    image: "/emotions.png",
   },
   {
     id: "tabs-with-card-3",
     title: "Supplications",
-    description: "Use automation to scale campaigns profitably and save time doing it.",
+    description: "Find solace and connection through supplications (duas), the heartfelt prayers that address every emotional need.",
     icon: (
       <svg
         xmlns="http://www.w3.org/2000/svg"
@@ -69,6 +69,6 @@ export const tabsData = [
         <path d="M3.34 19a10 10 0 1 1 17.32 0" />
       </svg>
     ),
-    image: "../assets/img/mockups/img10.jpg",
+    image: "/emotions.png",
   },
 ];

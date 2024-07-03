@@ -8,10 +8,6 @@ const Footer = () => {
       name: "Terms",
     },
     {
-      href: "/license",
-      name: "License",
-    },
-    {
       href: "/privacy",
       name: "Privacy",
     },
