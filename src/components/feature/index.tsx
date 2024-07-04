@@ -47,7 +47,7 @@ export const tabsData = [
         <path d="M3.34 19a10 10 0 1 1 17.32 0" />
       </svg>
     ),
-    image: "/emotions.png",
+    image: "/hadith.png",
     imageSmall: "/notes.png",
   },
   {
@@ -71,7 +71,7 @@ export const tabsData = [
         <path d="M3.34 19a10 10 0 1 1 17.32 0" />
       </svg>
     ),
-    image: "/emotions.png",
+    image: "/supplication.png",
     imageSmall: "/dhikr.png",
   },
 ];
