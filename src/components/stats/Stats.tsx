@@ -38,7 +38,7 @@ const Stats = () => {
               <ul className="inline-grid gap-y-8 gap-x-14 grid-cols-2">
                 {stats.map((item, idx) => (
                   <li key={idx} className="">
-                    <h4 className="text-4xl text-indigo-600 font-semibold">
+                    <h4 className="text-4xl text-primary-100 font-semibold">
                       {item.data}
                     </h4>
                     <p className="mt-3 font-medium">{item.title}</p>

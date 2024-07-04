@@ -24,6 +24,7 @@ export const tabsData = [
       </svg>
     ),
     image: "/emotions.png",
+    imageSmall: "/main.png",
   },
   {
     id: "tabs-with-card-2",
@@ -47,6 +48,7 @@ export const tabsData = [
       </svg>
     ),
     image: "/emotions.png",
+    imageSmall: "/notes.png",
   },
   {
     id: "tabs-with-card-3",
@@ -70,5 +72,6 @@ export const tabsData = [
       </svg>
     ),
     image: "/emotions.png",
+    imageSmall: "/dhikr.png",
   },
 ];

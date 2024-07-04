@@ -22,6 +22,15 @@
     text-wrap: balance;
   }
   .btn-primary {
-    @apply  py-2 px-8 text-white font-medium bg-primary-100 duration-150 hover:bg-primary-200 active:bg-primary-700 rounded-lg shadow-lg hover:shadow-none
+    @apply  inline-flex items-center justify-center px-5 py-3 mr-3 text-base font-medium text-center text-white rounded-lg bg-gray-800 hover:bg-gray-900 gap-2
   }
+
+  .btn-secondary {
+    @apply inline-flex items-center justify-center px-5 py-3 text-base font-medium text-center border border-gray-300 rounded-lg hover:bg-gray-100 hover:text-white  dark:border-gray-800 dark:hover:bg-gray-800  gap-2
+  }
+
+  .custom-screen {
+    
+  }
+
 }

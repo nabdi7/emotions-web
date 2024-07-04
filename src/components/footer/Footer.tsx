@@ -9,11 +9,15 @@ const Footer = () => {
     },
     {
       href: "/privacy",
-      name: "Privacy",
+      name: "Privacy policy",
     },
+    // {
+    //   href: "/about",
+    //   name: "About us",
+    // },
     {
       href: "/about",
-      name: "About us",
+      name: "Contact us",
     },
   ];
   return (
@@ -25,16 +29,27 @@ const Footer = () => {
           </Link>
           <ul className="flex flex-wrap justify-center gap-4 text-sm sm:text-base">
             {footerNavs.map((item, idx) => (
-              <li key={idx} className="text-gray-800 hover:text-gray-500 duration-150">
-                <Link href={item.href}>
-                  {item.name}
-                </Link>
+              <li
+                key={idx}
+                className="text-gray-800 hover:text-gray-500 duration-150"
+              >
+                <Link href={item.href}>{item.name}</Link>
               </li>
             ))}
           </ul>
         </div>
         <div className="mt-10 py-10 border-t text-center">
           <p>©{new Date().getFullYear()} Emotions Inc. All rights reserved.</p>
+          <p className="text-center text-sm py-4">
+            Made by{" "}
+            <a
+              href="https://qualitydesigns.site"
+              target="_blank"
+              className="hover:underline text-primary-100"
+            >
+              Quality Designs
+            </a>
+          </p>
         </div>
       </div>
     </footer>
