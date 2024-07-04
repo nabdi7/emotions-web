@@ -1,11 +1,11 @@
 import React from 'react'
 
-const Privacy = () => {
+const Terms = () => {
   return (
     <section className="min-h-screen font-sans bg-white">
       <div className="max-w-[85rem] px-4 py-10 sm:px-6 lg:px-8 lg:py-14 mx-auto">
-        <div className="bg-gray-100 p-8 rounded-lg shadow-sm">
-          <h1 className="text-2xl font-semibold mb-4">PRIVACY POLICY</h1>
+        <div className="rounded-lg shadow-sm">
+          <h1 className="text-2xl font-semibold mb-4">Terms of Service</h1>
           <p className="text-sm text-gray-600 mb-8">Last Updated: July 4th, 2024</p>
 
           <div className="space-y-6">
@@ -46,7 +46,8 @@ const Privacy = () => {
         </div>
       </div>
     </section>
+
   )
 }
 
-export default Privacy
+export default Terms

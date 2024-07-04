@@ -1,9 +1,9 @@
 import React from 'react'
-import Privacy from '@/components/privacy/Privacy'
+import Terms from '@/components/terms/Terms'
 
 const page = () => {
   return (
-    <Privacy />
+    <Terms />
   )
 }
 
