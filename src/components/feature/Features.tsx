@@ -11,8 +11,8 @@ const Features = () => {
 
   return (
     <section>
-      <div className="max-w-[85rem] px-4 py-10 sm:px-6 lg:px-8 lg:py-14 mx-auto">
-        <h2 className="text-center text-xl font-semibold py-5">All-in-one place</h2>
+      <div className="max-w-screen-xl px-4 py-10 sm:px-6 lg:px-8 lg:py-14 mx-auto">
+        <h2 className="text-center text-3xl font-semibold py-5 text-gray-800 sm:text-3xl mb-4">All-in-one place</h2>
         <nav
           className="max-w-6xl mx-auto grid sm:flex gap-y-px sm:gap-y-0 sm:gap-x-4"
           aria-label="Tabs"

@@ -1,4 +1,5 @@
 import React from "react";
+import Link from "next/link";
 
 const Cta = () => {
   return (
@@ -8,12 +9,12 @@ const Cta = () => {
           <h3 className="text-gray-800 text-3xl font-semibold sm:text-4xl">
             Try Emotions Tm for free
           </h3>
-          <p className="mt-3 text-gray-400">
+          <p className="mt-3 text-gray-200">
             Available for iOS, Android, and desktop.
           </p>
         </div>
         <div className="mr-auto place-self-center lg:col-span-7 gap-3 items-center mt-4 justify-center">
-          <button className="btn-primary flex items-center gap-2">
+          <Link href="" className="btn-primary flex items-center gap-2">
             <svg
               xmlns="http://www.w3.org/2000/svg"
               className="w-5 h-5 "
@@ -26,8 +27,8 @@ const Cta = () => {
             <p className="text-xl">
             App Store
             </p>
-          </button>
-          <button className="btn-secondary flex items-center gap-2">
+          </Link>
+          <Link href="" className="btn-secondary flex items-center gap-2">
             <svg
               xmlns="http://www.w3.org/2000/svg"
               className="w-6 h-6 mx-1 fill-gray-600 dark:fill-white"
@@ -38,7 +39,7 @@ const Cta = () => {
             <p className="text-xl">
             Play Store
             </p>
-          </button>
+          </Link>
         </div>
       </div>
     </section>
