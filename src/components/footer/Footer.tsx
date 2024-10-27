@@ -87,7 +87,7 @@ const Footer = () => {
           <p className="text-center text-sm py-4">
             Made by{" "}
             <a
-              href="https://qualitydesigns.site"
+              href="https://qdwebdesigns.com"
               target="_blank"
               className="hover:underline text-primary-100"
             >
