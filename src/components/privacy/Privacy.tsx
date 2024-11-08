@@ -142,7 +142,7 @@ const Privacy = () => {
               <p className="text-sm text-gray-700">
                 Sakina reserves the right to update this Privacy Policy periodically to reflect changes in our 
                 practices or legal requirements. When we make significant changes, we will notify users through the 
-                app and update the "Last Updated" date above. We encourage users to review this policy regularly to 
+                app and update the &apos;Last Updated&apos; date above. We encourage users to review this policy regularly to 
                 stay informed about how we protect their data.
               </p>
             </div>
