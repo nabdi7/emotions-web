@@ -1,6 +1,7 @@
 "use client";
 import React, { useState } from "react";
 import { tabsData } from "./index";
+import Image from "next/image";
 
 const Features = () => {
   const [activeTab, setActiveTab] = useState("tabs-with-card-1");
@@ -67,16 +68,20 @@ const Features = () => {
               <div className="max-w-[1140px] lg:pb-32 relative">
                 <figure className="hidden absolute bottom-0 start-0 z-[2] max-w-full w-60 h-auto mb-20 ms-20 lg:block">
                   <div className="p-1.5 bg-gray-100 rounded-3xl shadow-[0_2.75rem_5.5rem_-3.5rem_rgb(45_55_75_/_20%),_0_2rem_4rem_-2rem_rgb(45_55_75_/_30%),_inset_0_-0.1875rem_0.3125rem_0_rgb(45_55_75_/_20%)] dark:shadow-[0_2.75rem_5.5rem_-3.5rem_rgb(0_0_0_/_20%),_0_2rem_4rem_-2rem_rgb(0_0_0_/_30%),_inset_0_-0.1875rem_0.3125rem_0_rgb(0_0_0_/_20%)] dark:bg-neutral-700">
-                    <img
+                    <Image
                       className="max-w-full rounded-[1.25rem] h-auto"
+                      width={800}
+                      height={500}
                        src={tab.imageSmall}
                       alt="Image Description"
                     />
                   </div>
                 </figure>
                 <figure className="ms-auto me-20 relative z-[1] max-w-full w-[50rem] h-auto shadow-[0_2.75rem_3.5rem_-2rem_rgb(45_55_75_/_20%),_0_0_5rem_-2rem_rgb(45_55_75_/_15%)] dark:shadow-[0_2.75rem_3.5rem_-2rem_rgb(0_0_0_/_20%),_0_0_5rem_-2rem_rgb(0_0_0_/_15%)] lg:rounded-tl-[16rem] rounded-3xl">
-                  <img
+                  <Image
                     className="rounded-3xl"
+                    width={800}
+                    height={500}
                     src={tab.image}
                     alt="Image Description"
                   />
