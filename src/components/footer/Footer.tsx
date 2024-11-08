@@ -4,11 +4,11 @@ import Link from "next/link";
 const Footer = () => {
   const footerNavs = [
     {
-      href: "/terms",
+      href: "/",
       name: "Terms",
     },
     {
-      href: "/privacy",
+      href: "/",
       name: "Privacy policy",
     },
     // {
